@@ -2,6 +2,8 @@
 
 La funcion `promt()` es para solicitar datos al usuario
 
+# prueba commit
+
 `alert()`
 
 ### Console
