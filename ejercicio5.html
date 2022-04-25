@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+		<title>Ejercicio 3 - Mostrar mensajes complejos</title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			var numero1 = prompt("introduce un numero");
+			if (isNaN(numero1)) {
+				document.write(numero1 + "is not a number <br />");
+			} else {
+				document.write(numero1 + "is a number <br />");
+				if (numero1 < 10) {
+					document.write(numero1 + "es menor de 10 <br />");
+				}
+			}
+		</script>
+	</body>
+</html>

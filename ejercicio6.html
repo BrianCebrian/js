@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+		<title>Ejercicio 6 - JS</title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			var numero1 = prompt("introduce un numero");
+			if (isNaN(numero1)) {
+				document.write(numero1 + "is not a number <br />");
+			} else {
+				document.write(numero1 + "is a number <br />");
+				if (numero1 < 0) {
+					document.write(numero1 + "es menor de 0 <br />");
+				} else if (numero1 > 99999) {
+					document.write(numero1 + "es mayor de 99999 <br />");
+				}
+			}
+		</script>
+	</body>
+</html>
